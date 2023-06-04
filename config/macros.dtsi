@@ -2,25 +2,25 @@ macro_tmux_ren_sesion: macro_tmux_ren_sesion{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_ren_sesion";
 #binding-cells = <0>;
-bindings = <&macro_tmux_prefix>, <&kp DOLLAR>;
+bindings = <&kp DOLLAR>;
 };
 macro_tmux_p_horiz: macro_tmux_p_horiz{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_p_horiz";
 #binding-cells = <0>;
-bindings = <&macro_tmux_prefix>, <&kp PERCENT>;
+bindings = <&kp PERCENT>;
 };
 macro_tmux_w_close: macro_tmux_w_close{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w_close";
 #binding-cells = <0>;
-bindings = <&macro_tmux_prefix>, <&kp AMPERSAND>;
+bindings = <&kp AMPERSAND>;
 };
 macro_tmux_p_verti: macro_tmux_p_verti{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_p_verti";
 #binding-cells = <0>;
-bindings = <&macro_tmux_prefix>, <&kp DOUBLE_QUOTES>;
+bindings = <&kp DOUBLE_QUOTES>;
 };
 macro_tmux_prefix: macro_tmux_prefix{
 compatible = "zmk,behavior-macro";
